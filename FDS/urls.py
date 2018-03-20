@@ -19,5 +19,18 @@ from dashboard import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('about/', views.about),
+    path('contact/', views.contact),
+    path('success/', views.success),
+    path('login/', views.login_view),
+    path('logout/', views.logout_view),
+    path('services/', views.services),
+    path('bank/', views.bank),
+    path('creditcard/', views.creditcard),
+    path('mobilefraud/', views.mobilefraud),
+    path('bank/result/', views.bankresult),
+    path('creditcard/result/', views.creditresult),
+    path('mobilefraud/result/', views.mobileresult),
+
 ]
