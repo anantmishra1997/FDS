@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn import cross_validation,svm
-df = pd.read_csv('C:\\Users\\Bharat\\PycharmProjects\\Rajasthan Hackathon 4.0\\FDS\\dashboard\\notebook\\bank.csv', delimiter=";")
+df = pd.read_csv('C:\\Users\\Anant\\PycharmProjects\\Rajasthan Hackathon 4.0\\FDS\\dashboard\\notebook\\bank.csv', delimiter=";")
 
 print(df.head())
 
